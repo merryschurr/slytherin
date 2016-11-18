@@ -12,7 +12,7 @@
 
 h1 {
 	text-transform: uppercase;
-	margin-left: 45px;
+	margin-left: 40px;
 	font-weight: bolder;
 	font-size: 80px;
 }
@@ -39,7 +39,7 @@ h1 {
 
 #play_button {
 	margin-bottom: 30px;
-	margin-left: 2px;
+	margin-left: 5px;
 
 }
 
