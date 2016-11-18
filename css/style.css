@@ -1,0 +1,154 @@
+* {
+	font-family: 'Kristi', cursive;
+	letter-spacing: 2px;
+}
+
+/*landing page*/
+
+#home {
+	background-image: url("../images/HarryPotterCastle.jpg");
+	background-color: #000000;
+}
+
+h1 {
+	text-transform: uppercase;
+	margin-left: 45px;
+	font-weight: bolder;
+	font-size: 80px;
+}
+
+#crest {
+	position:absolute;
+    width:300px;
+    height:500px;
+    right:25%;
+    left:50%;
+    margin-left:-145px;
+}
+
+#buttons {
+	position:absolute;
+    width:300px;
+    height:200px;
+    bottom:0px;
+    right:25%;
+    left:50%;
+    margin-left:-40px;
+    padding-top: 20px;
+}
+
+#play_button {
+	margin-bottom: 30px;
+	margin-left: 2px;
+
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: #2d9c4c;
+    color: #000000;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #278642;
+}	
+
+
+#rules_button {
+
+}
+
+
+
+/*instructions/rules page*/
+
+#instructions {
+	background-image: url("../images/instructionsBackground.jpg");
+	background-color: #250505;
+}
+
+#instructionsBook {
+	position:absolute;
+    width:300px;
+    height:500px;
+    right:25%;
+    left:50%;
+    margin-left:-350px;
+    margin-top: 80px;
+}
+
+h2 {
+	position: absolute; 
+	top: 40px; 
+	left: 140px; 
+	width: 100%; 
+	font-size: 80px;
+	font-weight: bold;
+	color: #000;
+}
+
+ul {
+	position: absolute; 
+	top: 180px; 
+	left: 60px; 
+	width: 100%; 
+	font-size: 25px;
+	font-weight: bold;
+	color: #000;
+}
+
+#pageTwo {
+	position: absolute; 
+	top: -15px; 
+	left: 650px; 
+	width: 100%; 
+	font-size: 25px;
+	font-weight: bold;
+	color: #000;
+}
+
+#instructions_pageButtons {
+	position: absolute; 
+	top: 300px; 
+	left: 740px; 
+	width: 100%; 
+	font-size: 40px;
+	font-weight: bold;
+}
+
+li {
+	padding: 10px;
+}
+
+a {
+	padding: 20px;
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #278642;
+}
+
+
+
+
+/*game page*/
+
+#game {
+	background-image: url("../images/HarryPotterWall.jpg");
+}
