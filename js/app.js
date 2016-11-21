@@ -111,7 +111,7 @@ window.onload = function()
         // border and score board
         drawMain();
 
-        // matrix cycle
+        // matrix cycle with body and food size
         for (var x = 0; x < map.length; x++) {
             for (var y = 0; y < map[0].length; y++) {
                 if (map[x][y] === 1) {
