@@ -132,7 +132,7 @@ window.onload = function()
 
     function drawMain() 
     {
-        ctx.lineWidth = 4; // border thickness
+        ctx.lineWidth = 6; // border thickness
         ctx.strokeStyle = '#2d9c4c'; // border color
 
         // border padding 
