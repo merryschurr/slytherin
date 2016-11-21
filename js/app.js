@@ -146,16 +146,16 @@ window.onload = function()
     function generateFood(map)
     {
         // create random position for rows and columns
-        var rndX = Math.round(Math.random() * 19),
-            rndY = Math.round(Math.random() * 19);
+        var rndmX = Math.round(Math.random() * 19),
+            rndmY = Math.round(Math.random() * 19);
         
         // move food to random place avoiding body
-        while (map[rndX][rndY] === 2) {
-            rndX = Math.round(Math.random() * 19);
-            rndY = Math.round(Math.random() * 19);
+        while (map[rndmX][rndmY] === 2) {
+            rndmX = Math.round(Math.random() * 19);
+            rndmY = Math.round(Math.random() * 19);
         }
         
-        map[rndX][rndY] = 1;
+        map[rndmX][rndmY] = 1;
 
         return map;
     }
@@ -163,17 +163,17 @@ window.onload = function()
     function generateSnake(map)
     {
         // random position for head of snake
-        var rndX = Math.round(Math.random() * 19),
-            rndY = Math.round(Math.random() * 19);
+        var rndmX = Math.round(Math.random() * 19),
+            rndmY = Math.round(Math.random() * 19);
 
         // snake position vs border location
-        while ((rndX - snake.length) < 0) {
-            rndX = Math.round(Math.random() * 19);
+        while ((rndmX - snake.length) < 0) {
+            rndmX = Math.round(Math.random() * 19);
         }
         
         for (var i = 0; i < snake.length; i++) {
-            snake[i] = { x: rndX - i, y: rndY };
-            map[rndX - i][rndY] = 2;
+            snake[i] = { x: rndmX - i, y: rndmY };
+            map[rndmX - i][rndmY] = 2;
         }
 
         return map;
