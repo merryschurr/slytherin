@@ -16,3 +16,6 @@ Using the cursor keys, navigate the snake up, down, left, and right to get the J
 
 When you get to 50 points, you will move to the next level. Each level will increase the speed of the snake. How high can you get?
 
+Play Now
+
+https://github.com/merryschurr/slytherin
