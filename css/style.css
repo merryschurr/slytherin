@@ -1,5 +1,5 @@
 * {
-	font-family: 'Kristi', cursive;
+	font-family: 'IM Fell Double Pica SC', serif;
 	letter-spacing: 2px;
 }
 
@@ -12,7 +12,7 @@
 
 h1 {
 	text-transform: uppercase;
-	margin-left: 40px;
+	margin-left: -110px;
 	font-weight: bolder;
 	font-size: 80px;
 }
@@ -33,13 +33,13 @@ h1 {
     bottom:0px;
     right:25%;
     left:50%;
-    margin-left:-40px;
+    margin-left:-60px;
     padding-top: 20px;
 }
 
 #play_button {
 	margin-bottom: 30px;
-	margin-left: 5px;
+	margin-left: 10px;
 
 }
 
@@ -95,27 +95,27 @@ h2 {
 	top: 40px; 
 	left: 140px; 
 	width: 100%; 
-	font-size: 80px;
+	font-size: 40px;
 	font-weight: bold;
 	color: #000;
 }
 
 ul {
 	position: absolute; 
-	top: 180px; 
-	left: 60px; 
+	top: 140px; 
+	left: 45px; 
 	width: 100%; 
-	font-size: 25px;
+	font-size: 18px;
 	font-weight: bold;
 	color: #000;
 }
 
 #pageTwo {
 	position: absolute; 
-	top: -15px; 
+	top: 15px; 
 	left: 650px; 
 	width: 100%; 
-	font-size: 25px;
+	font-size: 18px;
 	font-weight: bold;
 	color: #000;
 }
@@ -123,9 +123,9 @@ ul {
 #instructions_pageButtons {
 	position: absolute; 
 	top: 300px; 
-	left: 740px; 
+	left: 725px; 
 	width: 100%; 
-	font-size: 40px;
+	font-size: 25px;
 	font-weight: bold;
 }
 
@@ -150,5 +150,44 @@ a:hover {
 /*game page*/
 
 #game {
-	background-image: url("../images/HarryPotterWall.jpg");
+	background-image: url("../images/brickWall4.jpg");
+	background-color: #111111;
+	background-repeat: none;
+	padding: 30px 0 0 450px;
 }
+
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 8px 9px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+#gamePageButtons1 {
+	position: absolute; 
+	top: 590px; 
+	left: 200px; 
+	width: 100%; 
+}
+
+p {
+	position: absolute; 
+	top: 575px; 
+	left: 400px; 
+	width: 100%; 
+	color: #278642;
+	font-size: 70px;
+	margin-top: -10px;
+}
+
+#gamePageButtons2 {
+	position: absolute; 
+	top: 590px; 
+	left: 950px; 
+	width: 100%; 
+}
+
+
+
+
