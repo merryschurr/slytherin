@@ -116,10 +116,10 @@ window.onload = function()
             for (var y = 0; y < map[0].length; y++) {
                 if (map[x][y] === 1) {
                     ctx.fillStyle = '#d9534f';
-                    ctx.fillRect(x * 20, y * 20 + 30, 20, 20);
+                    ctx.fillRect(x * 10, y * 10 + 20, 10, 10);
                 } else if (map[x][y] === 2) {
                     ctx.fillStyle = '#2d9c4c';
-                    ctx.fillRect(x * 20, y * 20 + 30, 20, 20);          
+                    ctx.fillRect(x * 10, y * 10 + 20, 10, 10);          
                 }
             }
         }
