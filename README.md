@@ -18,4 +18,4 @@ When you get to 50 points, you will move to the next level. Each level will incr
 
 Play Now
 
- https://merryschurr.github.io/slytherin/
+https://merryschurr.github.io/slytherin/landing_page
