@@ -1,3 +1,7 @@
+https://trello.com/b/p9PzJXGd/project-1
+
+https://wireframe.cc/jjc6aa
+
 Slytherin
 
 This is a 2D 2 player game that can be rendered in the browser that will have a clear winner display. 
